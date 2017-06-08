@@ -1,5 +1,7 @@
 # ansible-role-dnsmasq
 
+https://travis-ci.org/Solinea/ansible-role-dnsmasq.svg?branch=master
+
 ## Purpose:
 This is a simple role meant to install dnsmasq
 
