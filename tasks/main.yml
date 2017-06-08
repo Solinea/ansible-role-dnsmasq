@@ -1,0 +1,16 @@
+---
+- name: install dnsmasq with package manager
+  package:
+    name: dnsmasq
+    state: present
+
+- name: Copy config
+  template:
+    src: config
+    dest: /etc/dnsmasq.d
+
+- name: Start service
+  service:
+    name: dnsmasq
+    state: started
+    enabled: yes
