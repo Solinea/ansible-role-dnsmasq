@@ -9,5 +9,6 @@ install:
   - pip install molecule
   - pip install ansible
   - pip install docker
+  - pip install testinfra --upgrade
 script:
   - molecule test
