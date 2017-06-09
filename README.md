@@ -3,7 +3,7 @@
 [![Build Status](https://travis-ci.org/Solinea/ansible-role-dnsmasq.svg?branch=master)](https://travis-ci.org/Solinea/ansible-role-dnsmasq)
 
 ## Purpose:
-This is a simple role meant to install dnsmasq
+This is a simple role to install the [dnsmasq utility](http://www.thekelleys.org.uk/dnsmasq/docs/dnsmasq-man.html)
 
 ## Testing 
 This role is instrumented with the [`Molecule`](https://molecule.readthedocs.io/en/stable-1.25/) test harness. To run it, install `Molecule` with pip
